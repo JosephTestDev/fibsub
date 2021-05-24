@@ -8,9 +8,9 @@ namespace fibsub
 {
     public class Class1
     {
-        public static bool EmptyProcessor()
+        public static bool EmptyProcessor(bool status = true)
         {
-            return true;
+            return status;
         }
     }
 }
