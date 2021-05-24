@@ -10,7 +10,7 @@ namespace fibsub
     {
         public static bool EmptyProcessor(bool status = true)
         {
-            return status;
+            return !status;
         }
     }
 }
